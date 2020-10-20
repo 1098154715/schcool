@@ -1,0 +1,13 @@
+module.exports={
+	configurewebpack:{
+		resolbe:{
+			alias:{
+				"assets":"@/assets",
+				"common":"@/common",
+				"components":"@/components",
+				"css":"@/assets/css",
+				"img":"@/assets/img"
+			}
+		}
+	}
+}
